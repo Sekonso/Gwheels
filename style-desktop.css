@@ -1,7 +1,7 @@
 @media only screen and (width > 768px) {
   /* Container */
   .container {
-    padding: 1.5rem 5rem;
+    padding: 3rem 5rem;
   }
 
   /* Navbar */
@@ -52,6 +52,26 @@
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    flex: 1;
+    max-width: 50%;
+  }
+
+  /* About section */
+  .history {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+  }
+
+  .history-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    flex: 1;
+    max-width: 50%;
+  }
+
+  .history-highlight {
     flex: 1;
     max-width: 50%;
   }

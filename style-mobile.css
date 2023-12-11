@@ -67,4 +67,9 @@
   .about-image {
     margin-bottom: 1rem;
   }
+
+  /* History section */
+  .history-image {
+    margin-top: 1rem;
+  }
 }
