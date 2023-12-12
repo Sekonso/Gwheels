@@ -178,7 +178,12 @@ body::-webkit-scrollbar-track {
 
 .collection .text-header,
 .gallery .text-header,
+<<<<<<< HEAD
+.feedback .text-header,
+.profile .text-header {
+=======
 .feedback .text-header {
+>>>>>>> 9f44e05b0d64af550bc59e157c557598c02cead5
   text-align: center;
   margin-bottom: 3rem;
   display: block;
@@ -284,7 +289,12 @@ body::-webkit-scrollbar-track {
   margin: 1rem 0;
 }
 
+<<<<<<< HEAD
+.feedback-input input,
+.feedback-input textarea {
+=======
 .feedback-input input, .feedback-input textarea {
+>>>>>>> 9f44e05b0d64af550bc59e157c557598c02cead5
   width: 100%;
   margin-top: 0.5rem;
   padding: 0.5rem;
@@ -371,3 +381,33 @@ body::-webkit-scrollbar-track {
   cursor: pointer;
   box-shadow: 0 0 1rem var(--orange);
 }
+<<<<<<< HEAD
+
+/* Profile section */
+.profile-flex {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 3rem;
+}
+
+.profile-item {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.profile-image {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  margin-bottom: 1rem;
+}
+
+.profile-item h1 {
+  font-size: 1.2rem;
+}
+=======
+>>>>>>> 9f44e05b0d64af550bc59e157c557598c02cead5

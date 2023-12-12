@@ -1,13 +1,12 @@
 const navToggle = document.querySelectorAll(".nav-toggle");
 const navList = document.querySelector(".nav-list");
+const cards = document.querySelectorAll(".collection-cards .card");
 
 navToggle.forEach((toggle) => {
   toggle.addEventListener("click", () => {
     navList.classList.toggle("inactive");
   });
 });
-
-const cards = document.querySelectorAll(".collection-cards .card");
 
 cards.forEach((card) => {
   card.addEventListener("click", () => {
