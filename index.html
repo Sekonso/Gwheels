@@ -15,7 +15,9 @@
     <title>G-Wheels</title>
   </head>
   <body>
+    <!-- Hero -->
     <section class="hero container">
+      <!-- Navbar -->
       <nav class="navbar">
         <div class="brand">
           <img
@@ -36,8 +38,8 @@
           <li><a href="#about" class="nav-item">About</a></li>
           <li><a href="#history" class="nav-item">History</a></li>
           <li><a href="#collection" class="nav-item">Collection</a></li>
-          <li><a href="" class="nav-item">Gallery</a></li>
-          <li><a href="" class="nav-item">Feedback</a></li>
+          <li><a href="#gallery" class="nav-item">Gallery</a></li>
+          <li><a href="#feedback" class="nav-item">Feedback</a></li>
         </div>
         <div class="nav-toggle">
           <img
@@ -56,6 +58,7 @@
       </div>
     </section>
 
+    <!-- About -->
     <section class="about container" id="about">
       <div class="about-highlight">
         <div class="about-image"></div>
@@ -80,6 +83,7 @@
       </div>
     </section>
 
+    <!-- History -->
     <div class="container" id="history">
       <h1 class="text-header">History</h1>
       <div class="history">
@@ -110,6 +114,7 @@
       </div>
     </div>
 
+    <!-- Collection -->
     <div class="collection container" id="collection">
       <h1 class="text-header">Collection</h1>
       <div class="collection-cards">
@@ -182,6 +187,34 @@
         <img src="./Assets/lambo (8).jpg" alt="" class="gallery-panel" />
       </div>
     </div>
+
+    <!-- Feedback -->
+    <div class="feedback container" id="feedback">
+      <h1 class="text-header">FEEDBACK</h1>
+      <form action="" class="feedback-form">
+        <label for="feedback-nama" class="feedback-input">
+          Nama
+          <input type="text" name="nama" id="feedback-nama" placeholder="Masukkan nama..." required>
+        </label>
+        <label for="feedback-email" class="feedback-input">
+          Email
+          <input type="email" name="email" id="feedback-email" placeholder="nama@gmail.com" required>
+        </label>
+        <label for="feedback-Saran" class="feedback-input">
+          Saran
+          <textarea name="saran" id="feedback-saran" placeholder="Masukkan saran..." required></textarea>
+        </label>
+        <a href="https://youtu.be/PFRGWuMPx4E?si=pFF-amFRhYUnJSaX" class="feedback-button">Kirim</a>
+      </form>
+    </div>
+
+    <footer class="footer container">
+      <div class="footer-content">
+        <p>&copy; 2023 G-wheels. All rights reserved.</p>
+        <p>Contact us: ravimoet@gmail.com</p>
+      </div>
+    </footer>
+    
 
     <script src="script.js"></script>
   </body>
