@@ -76,3 +76,10 @@
     max-width: 50%;
   }
 }
+
+@media only screen and (width < 928px) {
+  .navbar .nav-item {
+    font-size: 0.9rem;
+    margin-left: 1rem;
+  }
+}
