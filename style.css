@@ -46,7 +46,7 @@ body::-webkit-scrollbar-track {
 }
 
 .text-content {
-  font-size: 1rem;
+  font-size: 1.2rem;
   text-align: justify;
   color: var(--grey);
 }
@@ -178,7 +178,8 @@ body::-webkit-scrollbar-track {
 
 .collection .text-header,
 .gallery .text-header,
-.feedback .text-header {
+.feedback .text-header,
+.profile .text-header {
   text-align: center;
   margin-bottom: 3rem;
   display: block;
@@ -284,7 +285,8 @@ body::-webkit-scrollbar-track {
   margin: 1rem 0;
 }
 
-.feedback-input input, .feedback-input textarea {
+.feedback-input input,
+.feedback-input textarea {
   width: 100%;
   margin-top: 0.5rem;
   padding: 0.5rem;
@@ -370,4 +372,34 @@ body::-webkit-scrollbar-track {
 .back:hover {
   cursor: pointer;
   box-shadow: 0 0 1rem var(--orange);
+}
+
+/* Profile section */
+.profile-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th {
+  background-color: var(--orange);
+}
+
+th,
+td {
+  text-align: center;
+  border: 1px solid white;
+  width: 50%;
+  padding: 0.25rem;
+}
+
+/* Customize the controls panel */
+audio::-webkit-media-controls-panel {
+  background-color: var(--orange);
+}
+
+/* Customize the play button */
+audio::-webkit-media-controls-play-button,
+audio::-webkit-media-controls-mute-button {
+  background-color: var(--blue);
+  border-radius: 50%;
 }
